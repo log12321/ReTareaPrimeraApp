@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993FE8251D3C774600C066A8 /* ColoresStruc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993FE8241D3C774600C066A8 /* ColoresStruc.swift */; };
 		994927271D3C52CD0019347D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994927261D3C52CD0019347D /* AppDelegate.swift */; };
 		994927291D3C52CD0019347D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994927281D3C52CD0019347D /* ViewController.swift */; };
 		9949272C1D3C52CD0019347D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9949272A1D3C52CD0019347D /* Main.storyboard */; };
 		9949272E1D3C52CD0019347D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9949272D1D3C52CD0019347D /* Assets.xcassets */; };
 		994927311D3C52CD0019347D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9949272F1D3C52CD0019347D /* LaunchScreen.storyboard */; };
+		9949273B1D3C57C80019347D /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949273A1D3C57C80019347D /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		994927231D3C52CD0019347D /* Amburguesas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amburguesas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993FE8241D3C774600C066A8 /* ColoresStruc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoresStruc.swift; sourceTree = "<group>"; };
+		994927231D3C52CD0019347D /* Hamburguesas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamburguesas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994927261D3C52CD0019347D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		994927281D3C52CD0019347D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9949272B1D3C52CD0019347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9949272D1D3C52CD0019347D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		994927301D3C52CD0019347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		994927321D3C52CD0019347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9949273A1D3C57C80019347D /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Datos.swift; path = ../Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		9949271A1D3C52CD0019347D = {
 			isa = PBXGroup;
 			children = (
-				994927251D3C52CD0019347D /* Amburguesas */,
+				994927251D3C52CD0019347D /* Hamburguesas */,
 				994927241D3C52CD0019347D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +50,33 @@
 		994927241D3C52CD0019347D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				994927231D3C52CD0019347D /* Amburguesas.app */,
+				994927231D3C52CD0019347D /* Hamburguesas.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		994927251D3C52CD0019347D /* Amburguesas */ = {
+		994927251D3C52CD0019347D /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
 				994927261D3C52CD0019347D /* AppDelegate.swift */,
 				994927281D3C52CD0019347D /* ViewController.swift */,
 				9949272A1D3C52CD0019347D /* Main.storyboard */,
+				993FE8241D3C774600C066A8 /* ColoresStruc.swift */,
+				9949273A1D3C57C80019347D /* Datos.swift */,
 				9949272D1D3C52CD0019347D /* Assets.xcassets */,
 				9949272F1D3C52CD0019347D /* LaunchScreen.storyboard */,
 				994927321D3C52CD0019347D /* Info.plist */,
 			);
+			name = Hamburguesas;
 			path = Amburguesas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		994927221D3C52CD0019347D /* Amburguesas */ = {
+		994927221D3C52CD0019347D /* Hamburguesas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 994927351D3C52CD0019347D /* Build configuration list for PBXNativeTarget "Amburguesas" */;
+			buildConfigurationList = 994927351D3C52CD0019347D /* Build configuration list for PBXNativeTarget "Hamburguesas" */;
 			buildPhases = (
 				9949271F1D3C52CD0019347D /* Sources */,
 				994927201D3C52CD0019347D /* Frameworks */,
@@ -79,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = Amburguesas;
+			name = Hamburguesas;
 			productName = Amburguesas;
-			productReference = 994927231D3C52CD0019347D /* Amburguesas.app */;
+			productReference = 994927231D3C52CD0019347D /* Hamburguesas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9949271E1D3C52CD0019347D /* Build configuration list for PBXProject "Amburguesas" */;
+			buildConfigurationList = 9949271E1D3C52CD0019347D /* Build configuration list for PBXProject "Hamburguesas" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				994927221D3C52CD0019347D /* Amburguesas */,
+				994927221D3C52CD0019347D /* Hamburguesas */,
 			);
 		};
 /* End PBXProject section */
@@ -136,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				994927291D3C52CD0019347D /* ViewController.swift in Sources */,
+				993FE8251D3C774600C066A8 /* ColoresStruc.swift in Sources */,
 				994927271D3C52CD0019347D /* AppDelegate.swift in Sources */,
+				9949273B1D3C57C80019347D /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +261,7 @@
 				INFOPLIST_FILE = Amburguesas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Loog.Amburguesas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Hamburguesas;
 			};
 			name = Debug;
 		};
@@ -263,14 +272,14 @@
 				INFOPLIST_FILE = Amburguesas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Loog.Amburguesas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Hamburguesas;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9949271E1D3C52CD0019347D /* Build configuration list for PBXProject "Amburguesas" */ = {
+		9949271E1D3C52CD0019347D /* Build configuration list for PBXProject "Hamburguesas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				994927331D3C52CD0019347D /* Debug */,
@@ -279,13 +288,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		994927351D3C52CD0019347D /* Build configuration list for PBXNativeTarget "Amburguesas" */ = {
+		994927351D3C52CD0019347D /* Build configuration list for PBXNativeTarget "Hamburguesas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				994927361D3C52CD0019347D /* Debug */,
 				994927371D3C52CD0019347D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

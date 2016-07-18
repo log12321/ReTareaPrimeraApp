@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Amburguesas
 //
-//  Created by Iliana Verenice Ortiz Serrano on 17/7/16.
+//  loog
 //  Copyright © 2016 Loog. All rights reserved.
 //
 
